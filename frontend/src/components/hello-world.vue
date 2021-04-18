@@ -2,7 +2,7 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String,
+    msg: String
   },
 }
 </script>
@@ -10,4 +10,5 @@ export default {
 <template lang="pug">
 .hello
   h1 {{ msg }}
+
 </template>
